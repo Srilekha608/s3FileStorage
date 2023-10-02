@@ -1,0 +1,28 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA3WP2AQ2Y62AZOREY
+      secret-key: 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
+    region:
+      static: us-east-2
+    stack:
+      auto: false
+
+
+#application:
+#    bucket:
+#      name: practices3Buckets
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 9091
+
+
